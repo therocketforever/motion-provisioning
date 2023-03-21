@@ -22,7 +22,8 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   # Fastlane depends on the `plist` and `security` gems which we use too
-  spec.add_dependency 'fastlane', '2.212.1'
+  # spec.add_dependency 'fastlane', '2.212.1'
+  spec.add_dependency 'fastlane', git: 'https://github.com/fastlane/fastlane.git'
 
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.1'
