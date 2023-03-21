@@ -1,3 +1,5 @@
+ENV['SPACESHIP_AVOID_XCODE_API'] = 'true'
+
 module MotionProvisioning
   class ProvisioningProfile
 
